@@ -34,9 +34,7 @@ class Theme_Router extends Router {
 	}
 	
 	/**
-	 * @inheritdoc
-	 *
-	 * @author rumur
+	 * Register all routes.
 	 */
 	public function registerRoutes() {
 		add_rewrite_tag( "%{$this->getCustomRouteTag()}%", '([^&]+)' );
