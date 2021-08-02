@@ -1,1 +1,1 @@
-# WP-theme-router
+# Wordpress theme router
